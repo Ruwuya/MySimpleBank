@@ -17,6 +17,7 @@
             Console.ReadLine();
             */
 
+            // User interaction to create an account and perform transactions
             Console.Write("Enter your account number: ");
             int accountNumber = int.Parse(Console.ReadLine());
             Console.Write("Enter initial deposit amount: ");
@@ -29,7 +30,7 @@
             bool running = true;
             while (running)
             {
-                Console.WriteLine("´\nChoose an action:");
+                Console.WriteLine("\nChoose an action:");
                 Console.WriteLine("1 - Deposit");
                 Console.WriteLine("2 - Withdraw");
                 Console.WriteLine("3 - Show Balance");
@@ -37,6 +38,7 @@
                 Console.Write("Enter your choice: ");
                 string choice = Console.ReadLine();
 
+                // Handle user choices
                 switch (choice)
                 {
                     case "1":
