@@ -4,11 +4,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySimpleBankKonsole", "MySimpleBankKonsole\MySimpleBankKonsole.csproj", "{D2C459AD-4F36-4351-9391-64DFD554AC79}"
-	ProjectSection(ProjectDependencies) = postProject
-		{A71440C7-ABC8-4FDB-88B0-89E0B70F937D} = {A71440C7-ABC8-4FDB-88B0-89E0B70F937D}
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleBankClassLibrary", "SimpleBankClassLibrary\SimpleBankClassLibrary.csproj", "{A71440C7-ABC8-4FDB-88B0-89E0B70F937D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,10 +15,6 @@ Global
 		{D2C459AD-4F36-4351-9391-64DFD554AC79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2C459AD-4F36-4351-9391-64DFD554AC79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2C459AD-4F36-4351-9391-64DFD554AC79}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A71440C7-ABC8-4FDB-88B0-89E0B70F937D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A71440C7-ABC8-4FDB-88B0-89E0B70F937D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A71440C7-ABC8-4FDB-88B0-89E0B70F937D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A71440C7-ABC8-4FDB-88B0-89E0B70F937D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
